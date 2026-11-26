@@ -140,7 +140,7 @@
             </a>
             <div>
               <h3>Concertina</h3>
-              <p>Folds adjacent layers of a pretrained LLM into a shared looped block without training from scratch, using lightweight low-rank step deltas and per-token gating to bridge inter-layer differences—cutting parameters while preserving reasoning depth. Halving Qwen3-4B (to 2.27B) with just 22B tokens of alignment and distillation outperforms the 36T-token Qwen3-1.7B on most benchmarks, retaining 84–95% of the original model’s performance.</p>
+              <p>Folds adjacent LLM layers into a shared looped block via low-rank deltas and token gating, halving Qwen3-4B to 2.27B while keeping depth—beating the 36T-token Qwen3-1.7B in just 22B tokens (84–95% of teacher).</p>
               <div class="resources">
                 <a href="https://arxiv.org/abs/2611.18113">arXiv</a>
                 <a href="https://github.com/myboker/concertina">GitHub</a>
